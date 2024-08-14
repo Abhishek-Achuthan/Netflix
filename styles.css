@@ -14,7 +14,6 @@
   font-family: "NetflixSans";
   src: url(fonts/NetflixSans_W_Md.woff2);
   font-weight: 200;
-
 }
 
 @font-face {
@@ -28,7 +27,11 @@
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent, rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      transparent,
+      rgba(0, 0, 0, 0.9)
+    ),
     url(media/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg);
   height: 96vh;
   padding-top: 20px;
@@ -42,7 +45,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
@@ -93,7 +95,7 @@ option {
 .lang-container {
   display: flex;
   border: 1px solid white;
-  padding: 6px 32px ;
+  padding: 6px 32px;
 }
 
 .button-start {
@@ -110,7 +112,6 @@ option {
 
 .button-start:hover {
   background-color: rgb(193, 17, 25);
-  ;
 }
 
 .hero {
@@ -119,7 +120,6 @@ option {
   height: 100vh;
   align-items: center;
   justify-content: center;
-
 }
 
 .hero h1 {
@@ -144,6 +144,7 @@ option {
   font-size: 1.25rem;
   font-family: "NetflixSans";
   font-weight: 100;
+  padding-bottom: 1rem;
 }
 
 label {
@@ -166,8 +167,6 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #ffffff;
-  /* this is optional */
-  /* transition: background-color 5000s ease-in-out 0s; */
   box-shadow: inset 0 0 20px 20px #23232329;
   caret-color: rgb(10, 9, 83);
 }
@@ -177,10 +176,10 @@ input:-webkit-autofill:active {
   justify-content: center;
   gap: 4px;
 }
- .contents{
+.contents {
   background-color: black;
   padding: 0px 175px 0px 175px;
-} 
+}
 
 .card-1 {
   display: flex;
@@ -252,116 +251,114 @@ input:-webkit-autofill:active {
   gap: 10px;
   background-color: black;
 }
-.series{
+.series {
   display: flex;
   flex-direction: column;
-  
 }
-.series h6{
+.series h6 {
   color: #fff;
   white-space: nowrap;
   font-size: 16px;
   font-family: "NetflixSans";
   font-weight: 200;
 }
-.series p{
+.series p {
   color: #0071eb;
   font-family: "NetflixSans";
   font-weight: 100;
 }
-.series-img{
-  width: 85%; 
+.series-img {
+  width: 85%;
   height: auto;
 }
-.svg-dwld{
+.svg-dwld {
   height: 1.75rem;
 }
-.card-2-text h1{
+.card-2-text h1 {
   color: white;
   font-family: NetflixSans;
   font-weight: 300;
   font-size: 3rem;
   white-space: nowrap;
 }
-.card-2-text p{
+.card-2-text p {
   color: white;
   font-family: NetflixSans;
   font-weight: 100;
   font-size: 1.5rem;
 }
-.card-3-media{
+.card-3-media {
   position: relative;
-  
 }
-.card-3-text h1{
+.card-3-text h1 {
   font-family: NetflixSans;
   color: #fff;
   font-size: 3rem;
-  font-weight:400 ;
+  font-weight: 400;
 }
-.card-3-text p{
+.card-3-text p {
   font-family: NetflixSans;
   font-size: 1.5rem;
-  font-weight:100 ;
+  font-weight: 100;
   color: white;
 }
-.card-3{
+.card-3 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card-3-image{
+.card-3-image {
   position: relative;
   z-index: 1;
 }
 
-.card-3 video{
+.card-3 video {
   position: absolute;
-    top: 8%;
-    right: 20%;
-    width: 61%;
+  top: 8%;
+  right: 20%;
+  width: 61%;
 }
-.card-4{
+.card-4 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.card-4-text h1{
+.card-4-text h1 {
   font-family: "NetflixSans";
   font-weight: 300;
   font-size: 48px;
   color: white;
 }
-.card-4-text p{
+.card-4-text p {
   font-family: "NetflixSans";
   font-weight: 100;
   font-size: 1.5rem;
   color: white;
 }
-.card-4-text{
+.card-4-text {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   gap: 10px;
 }
-.card-5{
+.card-5 {
   display: flex;
   flex-direction: column;
   color: white;
-  font-size:18px ;
+  font-size: 18px;
   align-items: center;
   margin-bottom: 4rem;
 }
-.card-5 h3{
-  font-family:NetflixSans ;
-  font-weight:300 ;
+.card-5 h3 {
+  font-family: NetflixSans;
+  font-weight: 300;
   font-size: 3rem;
   padding-top: 4rem;
 }
-.card-5 li{
+.card-5 li {
   font-family: NetflixSans;
- font-size: 24px;
+  font-size: 24px;
 }
-.card-5 p{
+.card-5 p {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 100;
@@ -385,14 +382,14 @@ input:-webkit-autofill:active {
   padding: 33px;
   font-size: 18px;
   font-weight: 200;
-  background: #303030; 
+  background: #303030;
   margin-bottom: 2px;
   cursor: pointer;
   position: relative;
 }
 
 .accordion li label::after {
-  content: '+';
+  content: "+";
   font-size: 34px;
   position: absolute;
   right: 20px;
@@ -412,56 +409,77 @@ input[type="radio"] {
 }
 
 .accordion input[type="radio"]:checked + label + .content {
-  max-height: 600px; /* Adjust if necessary */
+  max-height: 600px;
   padding: 30px 20px;
 }
-.footer-items{
+.footer-items {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1%;
-  color:#ffffff;
+  color: #ffffff;
+  padding-right: 175px;
 }
 
-footer ul{
+footer ul {
   list-style: none;
   padding: 0;
   line-height: 1rem;
 }
-.main-footer{
+
+.main-footer {
   background-color: black;
   color: white;
   padding: 0px 175px 0% 175px;
 }
-.link-color{
+
+.main-footer p h5 {
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.link-color {
   color: white;
 }
-.main-footer p{
+
+.main-footer p {
   padding-bottom: 1%;
   padding-top: 5%;
+  color: #ffffff;
+  opacity: 70%;
 }
-.footer-end{
+
+.footer-end {
   display: flex;
   flex-direction: column;
   gap: 1vh;
 }
-.footer-end h5{
+
+.footer-end h5 {
   margin-bottom: 4rem;
+  color: #ffffff;
+  opacity: 70%;
+  font-family: "NetflixSans";
 }
-.footer-items ul{
+
+.footer-items ul {
   line-height: 2rem;
+  font-size: 0.875rem;
+  color: #ffffff;
+  opacity: 70%;
 }
-.netflix{
+
+.netflix {
   display: flex;
   flex-direction: column;
-  
 }
-.contents{
+
+.contents {
   border-bottom: 0.25rem solid #333;
   padding: 1rem 0;
-  padding-left: 175px;
-  padding-right: 175px;
+  padding: 72px 175px;
 }
+
 .second-lang {
- width: 5rem;
- margin-bottom: 1rem;
+  width: 5rem;
+  margin-bottom: 1rem;
 }
